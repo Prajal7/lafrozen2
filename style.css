@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    font-size: 30px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+.heading h2{
+    display: inline-block;
+    font-size: 120px;
+    padding-bottom: 60px;
+}
+.universal i{
+    font-size: 120px;
+}
+.universal{
+    padding:60px 40px;
+    border-bottom: 10px solid black;
+}
+.afford i {
+    color: aqua;
+
+}
+.top{
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.bottom{
+    font-size: 40px;
+    font-weight: light;
+}
+.website{
+    background-color: aqua;
+}
+.website i{
+    color: white;
+}
+
+.app{
+    background: url(./img/bg.jpg);
+    color: white;
+}
+.youtube{
+    background-color: rgb(87, 86, 86);
+    color: white;
+
+}
+footer{
+    background-color: black;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    position: relative;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .ic a:first-child{
+    padding-right: 40px;
+}
+.backtotop {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    
+}
+
+.backtotop a{
+    font-size: 12px;
+    background: red;
+padding: 10px;
+border-radius: 50%;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
